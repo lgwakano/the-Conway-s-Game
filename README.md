@@ -11,3 +11,10 @@ Every cell interacts with its eight neighbours, which are the cells that are hor
 3. Any live cell with more than three live neighbours dies, as if by over-population. 
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
+
+## Compiling the program
+1. Using curses Curses
+  `gcc liferun.c lifedrawNcurses.c -lcurses -o name_of_compiled_file`
+ 
+2. Using Stdio
+  `gcc liferun.c lifedrawStdio.c -o name_of_compiled_file`
