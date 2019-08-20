@@ -1,3 +1,7 @@
+
+![Ncurses](https://media.giphy.com/media/d8EX2QNCVhqf07msld/giphy.gif)
+
+
 # the-Conway-s-Game
 An infinite two-dimensional orthogonal grid of square cell
 
@@ -18,3 +22,5 @@ Every cell interacts with its eight neighbours, which are the cells that are hor
  
 2. Using Stdio
   `gcc liferun.c lifedrawStdio.c -o name_of_compiled_file`
+
+
